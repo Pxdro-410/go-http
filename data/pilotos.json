@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nombre": "Max Verstappen",
+    "equipo": "Red Bull Racing",
+    "numero_auto": 1,
+    "campeonatos": 4,
+    "activo": true
+  },
+  {
+    "id": 2,
+    "nombre": "Lewis Hamilton",
+    "equipo": "Ferrari",
+    "numero_auto": 44,
+    "campeonatos": 7,
+    "activo": true
+  },
+  {
+    "id": 3,
+    "nombre": "Charles Leclerc",
+    "equipo": "Ferrari",
+    "numero_auto": 16,
+    "campeonatos": 0,
+    "activo": true
+  },
+  {
+    "id": 4,
+    "nombre": "Lando Norris",
+    "equipo": "McLaren",
+    "numero_auto": 4,
+    "campeonatos": 1,
+    "activo": true
+  },
+  {
+    "id": 5,
+    "nombre": "Fernando Alonso",
+    "equipo": "Aston Martin",
+    "numero_auto": 14,
+    "campeonatos": 2,
+    "activo": true
+  },
+  {
+    "id": 6,
+    "nombre": "George Russell",
+    "equipo": "Mercedes",
+    "numero_auto": 63,
+    "campeonatos": 0,
+    "activo": true
+  },
+  {
+    "id": 7,
+    "nombre": "Sergio Perez",
+    "equipo": "Cadillac",
+    "numero_auto": 11,
+    "campeonatos": 0,
+    "activo": true
+  },
+  {
+    "id": 8,
+    "nombre": "Sebastian Vettel",
+    "equipo": "Aston Martin",
+    "numero_auto": 5,
+    "campeonatos": 4,
+    "activo": false
+  },
+  {
+    "id": 9,
+    "nombre": "Kimi Raikkonen",
+    "equipo": "Alfa Romeo",
+    "numero_auto": 7,
+    "campeonatos": 1,
+    "activo": false
+  },
+  {
+    "id": 10,
+    "nombre": "Oscar Piastri",
+    "equipo": "McLaren",
+    "numero_auto": 81,
+    "campeonatos": 0,
+    "activo": true
+  }
+]
