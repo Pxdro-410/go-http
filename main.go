@@ -16,6 +16,7 @@ func main() {
 
 	// registrar los endpoints y sus handlers correspondientes, se define con api/items 
 	http.HandleFunc("/api/items", handlers.ItemsHandler)
+	http.HandleFunc("/api/items/", handlers.ItemsHandler)
 
 	// se confira el puerto en el puerto 41286 
 	// favor de tomar en cuenta que mi carnet es el 241286, pero el puerto 241286 no es valido 

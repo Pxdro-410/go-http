@@ -24,14 +24,6 @@
     "activo": true
   },
   {
-    "id": 4,
-    "nombre": "Lando Norris",
-    "equipo": "McLaren",
-    "numero_auto": 4,
-    "campeonatos": 1,
-    "activo": true
-  },
-  {
     "id": 5,
     "nombre": "Fernando Alonso",
     "equipo": "Aston Martin",
@@ -78,5 +70,13 @@
     "numero_auto": 81,
     "campeonatos": 0,
     "activo": true
+  },
+  {
+    "id": 11,
+    "nombre": "Daniel Ricciardo",
+    "equipo": "Red Bull Racing",
+    "numero_auto": 3,
+    "campeonatos": 0,
+    "activo": false
   }
 ]
