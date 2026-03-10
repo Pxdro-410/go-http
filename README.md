@@ -33,22 +33,22 @@ la estructura de pilotos.json es la siguiente:
 ### utilizar metodo GET
 
 1. Obtener todos los pilotos
-Ruta: /api/items
-Esto devuelve la lista completa de pilotos registrados.
+ - Ruta: /api/items
+ - Esto devuelve la lista completa de pilotos registrados.
 
-2. Obtener un piloto por ID (Path Parameter)
-Ruta: /api/items/1
-Devuelve únicamente el piloto que coincida con el ID proporcionado en la URL.
+3. Obtener un piloto por ID (Path Parameter)
+ - Ruta: /api/items/1
+ - Devuelve únicamente el piloto que coincida con el ID proporcionado en la URL.
 
-3. Filtrar pilotos (Query Parameters Combinados)
-Ruta: /api/items?equipo=Ferrari&activo=true
-Permite filtrar la lista usando múltiples parámetros.
-nota: solo soporta los parametros id, equipo y activo.
+4. Filtrar pilotos (Query Parameters Combinados)
+ - Ruta: /api/items?equipo=Ferrari&activo=true
+ - Permite filtrar la lista usando múltiples parámetros.
+ - nota: solo soporta los parametros id, equipo y activo.
 
 ### utilizar método POST
 1. Crear un nuevo piloto
-Ruta: /api/items
-Registra un nuevo piloto y lo guarda en el archivo JSON. Valida que el nombre y equipo no estén vacíos. En este caso el id se asigna automáticamente.
+ - Ruta: /api/items
+ - Registra un nuevo piloto y lo guarda en el archivo JSON. Valida que el nombre y equipo no estén vacíos. En este caso el id se asigna automáticamente.
 
 ejemplo de peticion:
 {
@@ -60,8 +60,8 @@ ejemplo de peticion:
 }
 
 ### utilizar método DELETE
-Ruta: /api/items/9 (ejemplo)
-Esto elimina físicamente el registro del piloto con el ID especificado.
+ - Ruta: /api/items/9 (ejemplo)
+ - Esto elimina físicamente el registro del piloto con el ID especificado.
 
 ### Para dejar de ejecutar el contenedor
 1. Abre una terminal en la raíz del proyecto.
